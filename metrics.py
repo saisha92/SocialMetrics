@@ -18,7 +18,6 @@ class MetricResource(object):
     	Metrics["Pinterest"] = pinterestJob.data
     	Metrics["Facebook"] = facebookJob.data
     	Metrics["LinkedIn"] = linkedinJob.data
-    	#resp.body = '{"message": "Hello world!"}'
         resp.body = json.dumps(Metrics)
         resp.status = falcon.HTTP_200
 
