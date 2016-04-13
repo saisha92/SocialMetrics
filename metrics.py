@@ -1,8 +1,8 @@
 import falcon
-from pinterest_job import PinterestJob
-from stumbleupon_job import StumbleUponJob
-from facebook_job import FacebookJob
-from linkedin_job import LinkedInJob
+from Jobs.pinterest_job import PinterestJob
+from Jobs.stumbleupon_job import StumbleUponJob
+from Jobs.facebook_job import FacebookJob
+from Jobs.linkedin_job import LinkedInJob
 import json
 
 class MetricResource(object):
