@@ -2,3 +2,4 @@ Cython==0.24
 falcon==0.3.0
 requests==2.9.1
 httpie==0.9.3
+gunicorn==19.3.0
