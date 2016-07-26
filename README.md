@@ -6,4 +6,5 @@ This helps us to fetching the social reach of a particular website. This app is 
 
 To access the data type this in your address bar http://morning-bastion-61876.herokuapp.com/metrics/ {your Url} . So lets say for example you want to know about the reach of Google. Your request would look like http://morning-bastion-61876.herokuapp.com/metrics/www.google.com . Make sure your url is just www.your-site.com ,please avoid giving the entire url like http://www.your-site.com. This App is deployed in Heroku and has an uptime of 18 hours in a 24 hour period. So if for some reason you are unable to access the data for your site please check back after 6 hours.
 
-
+Access the Application here -> http://socialmetrics.8mpw9mrcka.us-east-1.elasticbeanstalk.com/, please enter the input as www.<your-site>.com
+If you are interested in the endpoint and want the data as a JSON, please use http://morning-bastion-61876.herokuapp.com/metrics/ {your Url}
